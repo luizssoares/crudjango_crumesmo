@@ -1,0 +1,25 @@
+ body {
+    background-color: rgb(160, 108, 108);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    color: darkgreen;   
+}
+
+button:hover {
+    background-color: lightslategray;
+}
+
+a {
+    color: purple;
+    text-align: var();
+    display: block;
+  }
+
+div {
+    background-image: url(images/catblack.jpg);
+    height: 300px;
+    width: 400px;
+}

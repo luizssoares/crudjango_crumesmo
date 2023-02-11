@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Crudzinho do Luiz</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    Eai mundo pô
-
+    HELLO MUNDO?
     <ul>
         {% for pessoa in pessoas %}
             <li> {{ pessoa.id }} - {{ pessoa.nome }} 
@@ -24,6 +26,8 @@
         <button type="submit">Salvar</button>
     </form>
 
-    
+    <div>
+        <img src="images/catblack.jpg" alt="Gato preto sorrindo">
+    </div>
 </body>
 </html>
